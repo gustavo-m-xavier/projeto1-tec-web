@@ -102,6 +102,21 @@ main {
   background: #0056b3;
 }
 
+#email-required,
+#name-required,
+#phone-required {
+  color: red;
+  font-size: 0.8rem;
+  min-height: 16px;
+}
+
+#form-info {
+  color: green;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 12px;
+}
+
 @media (width >= 728px) {
   .create-contact {
     max-width: 400px;
