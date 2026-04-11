@@ -108,4 +108,12 @@ li .info {
     header h1 {
         font-size: 20px;
     }
+    
+    .navigation__actions {
+        flex-direction: column;
+    }
+
+    .navigation__actions button {
+        width: 100%;
+    }
 }
