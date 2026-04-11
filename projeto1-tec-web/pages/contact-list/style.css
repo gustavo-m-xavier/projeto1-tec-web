@@ -75,7 +75,7 @@ li .info {
 
 .navigation__title {
     font-size: 18px;
-    margin-bottom: 12px; /* 🔥 espaço entre título e botões */
+    margin-bottom: 12px; 
     color: #333;
     text-align: center;
 }
