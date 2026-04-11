@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/global.css" />
+    <title>Cadastrar Contato</title>
+  </head>
+  <body>
+    <main class="create-contact">
+      <form>
+        <header>
+          <h1>Cadastrar Contato</h1>
+        </header>
+        <fieldset>
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" />
+        </fieldset>
+
+        <fieldset>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+        </fieldset>
+
+        <fieldset>
+          <label for="phone">Telefone:</label>
+          <input type="text" id="phone" name="phone" />
+        </fieldset>
+
+        <footer>
+          <button type="submit">Cadastrar</button>
+        </footer>
+      </form>
+
+      <section class="navigation">
+        <h2 class="navigation__title">Opções de Navegação</h2>
+
+        <article class="navigation__actions">
+          <button onclick="window.location.href = '/'">Voltar para Home</button>
+
+          <button
+            onclick="window.location.href = '/pages/list-contacts/index.html'"
+          >
+            Ver Lista de Contatos
+          </button>
+        </article>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
